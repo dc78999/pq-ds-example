@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script creates 4 folders, each folder will have a
+# Raspbian OS image, a customized device tree blob, a kernel image
+# These are neccessary resources to start a raspberry Pi 3+ 
+# base on the QEMU
+
 IMAGE_FILE="2024-03-15-raspios-bookworm-armhf-lite.img"
 DTB_FILE="bcm2710-rpi-3-b.dtb"
 KERNEL_FILE="kernel8.img"
