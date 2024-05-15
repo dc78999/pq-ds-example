@@ -1,0 +1,5 @@
+# ignore every files
+
+# except .sh files
+
+!*.sh
